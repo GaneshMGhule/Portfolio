@@ -14,7 +14,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background-color: rgba(0, 0, 0, 0.5); /* optional for styling */
+    background-color: rgba(0, 0, 0, 0.5); 
     position: fixed;
     width: 100%;
     top: 0;
@@ -31,7 +31,7 @@ body{
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 5px; /* spacing between links */
+    gap: 5px; 
     margin: 0;
     padding: 0;
 }
@@ -44,7 +44,7 @@ body{
 }
 
 .navbar ul li a:hover {
-    color: #00ffff; /* or any hover color */
+    color: #00ffff; 
 }
 
 .navbar a{
@@ -65,7 +65,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-image: url('images/Ganesh.jpg'); /* ✅ Use relative path */
+    background-image: url('images/Ganesh.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,18 +127,17 @@ body{
     0 0 100px cyan,0 0 200px cyan
 }
 
-/* Section Layout */
 .about {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
     padding: 80px 10%;
-    background-color: #242222; /* Changed to Black */
-    color: #fff; /* White text for contrast */
+    background-color: #242222; 
+    color: #fff; 
 }
 
-/* Left Side - Image */
+
 .about-img {
     flex: 1;
     display: flex;
@@ -147,11 +146,11 @@ body{
 }
 
 .about-img img {
-    width: 350px; /* Adjust width */
-    height: 400px; /* Adjust height */
+    width: 350px; 
+    height: 400px; 
     object-fit: cover;
     border-radius: 15px;
-    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); /* White shadow for visibility */
+    box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.2); 
     transition: transform 0.3s ease-in-out;
 }
 
@@ -159,7 +158,7 @@ body{
     transform: scale(1.05);
 }
 
-/* Right Side - Text */
+
 .about-text {
     flex: 1;
     text-align: left;
@@ -168,29 +167,29 @@ body{
 .about-text h2 {
     font-size: 40px;
     margin-bottom: 10px;
-    color: #fff; /* White text */
+    color: #fff; 
     font-weight: bold;
 }
 
 .about-text h2 span {
-    color: cyan; /* Blue for highlight */
+    color: cyan; 
 }
 
 .about-text h4 {
     font-size: 24px;
     margin-bottom: 20px;
-    color: #ccc; /* Light gray */
+    color: #ccc; 
     font-weight: 600;
 }
 
 .about-text p {
     font-size: 18px;
     line-height: 1.6;
-    color: #bbb; /* Light gray */
+    color: #bbb; 
     max-width: 600px;
 }
 
-/* Responsive Design */
+
 @media (max-width: 900px) {
     .about {
         flex-direction: column;
@@ -207,10 +206,10 @@ body{
     }
 }
 
-/* Education Section */
+
 /* Education Section */
 .education {
-    background-color: #201e1e; /* Black background */
+    background-color: #201e1e; 
     color: #fff;
     padding: 80px 10%;
     text-align: center;
@@ -223,7 +222,7 @@ body{
   }
   
   .section-title span {
-    color:cyan; /* Blue highlight */
+    color:cyan; 
   }
   
   .education-container {
@@ -235,7 +234,7 @@ body{
   }
   
   .education-box {
-    background-color: #1a1a1a; /* Dark gray box for contrast */
+    background-color: #1a1a1a; 
     padding: 25px;
     border-left: 4px solid cyan;
     border-radius: 10px;
@@ -246,7 +245,7 @@ body{
   
   .education-box:hover {
     transform: translateY(-5px);
-    background-color: #222; /* Slightly lighter on hover */
+    background-color: #222; 
   }
   
   .education-box h3 {
@@ -267,7 +266,7 @@ body{
     color: #ccc;
   }
   
-  /* Responsive Design */
+ 
   @media (max-width: 768px) {
     .education-container {
       padding: 0 10px;
